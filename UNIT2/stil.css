@@ -1,0 +1,97 @@
+h1{  color:lightgrey;
+    font-family: courier;
+    font-size: 200%;
+    text-align: right;
+    border: 7px
+    solid black;
+    padding: 5px;
+    margin: 6px;
+    background-color: grey;
+  }
+h2{  color:grey;
+      font-family: courier;
+      font-size: 100%;
+      text-align: right;
+      text-decoration-line: underline;
+    }
+h3{  color:grey;
+          font-size: 120%;
+          text-align: right;
+          text-decoration-line: underline;
+        }
+  h4{  color:grey;
+              font-size: 120%;
+              text-align: right;
+              text-decoration-line: underline;
+
+            }
+  h5{  color:grey;
+                  font-size: 120%;
+                  text-align: center;
+                  text-decoration-line: underline;
+                }
+.btn{  color:grey;
+font-size: 130%;
+border:none;
+text-decoration-line: underline;
+float: right;
+                    }
+.btn:hover {background: #eee;}
+
+.monitor {color: grey;}
+
+header{
+border: 1px
+solid black;
+padding: 5px;
+margin: 6px;
+background-color: lightgrey;
+
+}
+di{
+                border: 1px
+                solid black;
+                padding: 5px;
+                margin: 5px;
+                background-color: lightgrey;
+                }
+img{border-radius:30px;
+                weight:550px;
+                height:300px;
+                opacity: 0.9;
+            }
+table {
+  border-collapse: collapse;
+}
+
+li{
+  text-align: center;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.mySlides {display:none;}
+.text
+{
+  color: yellow;
+  font-size: 30px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 50%;
+  text-align: center;
+  }
+.slideshow-container
+  {
+  max-width: 400px;
+  position: relative;
+  margin: auto;
+}

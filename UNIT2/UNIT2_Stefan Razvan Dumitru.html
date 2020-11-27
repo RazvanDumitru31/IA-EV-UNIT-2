@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<link rel="stylesheet" href="stil.css">
+<body>
+
+<h1 >Stefan Razvan Dumitru</h1>
+<h2>stefanrazvan01@yahoo.com</h2>
+<h3><i>Specificatii tehnice ale statiei principale de lucru</i></h3>
+
+<table align="right">
+  <tr>
+    <th>Denumire componenta</th>
+    <th>Producator</th>
+    <th>Parametri</th>
+  </tr>
+  <tr>
+    <td>Intel core i5 4690k</td>
+    <td>Intel</td>
+    <td>3.5Ghz</td>
+  </tr>
+  <tr>
+    <td>GTX 960</td>
+    <td>Nvidia</td>
+    <td>2GB GDDR5 VRAM</td>
+  </tr>
+  <tr>
+    <td>8GB RAM DDR3</td>
+    <td>HyperX</td>
+    <td>2400Mhz</td>
+  </tr>
+</table>
+<br><br><br><br><br><br><br><br><br>
+<header>
+<h4><i>Structura retelei personale si accesul la internet</i></h4>
+
+<img src="retea personala.png" align="right">
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+<h5><i>Caracteristicile conexiunii la retea</i></h5>
+
+<li>Adresa MAC: 40-8D-5C-33-36-B3</li>
+<li>Adresa IP: 109.96.169.133</li>
+<li>Debit la download: 420Mbps</li>
+<li>Debit la upload: 125Mbps</li>
+</header>
+<button class="btn monitor" onclick="imagine()" onclick="carousel()"><i>Utilizarea resurselor</i></button>
+<br><br>
+<img id="cpu" src="cpu.jpg">
+<img id="ram" src="ram.jpg">
+<img id="procese" src="procese.jpg">
+<img id="disk" src="disk.jpg">
+
+<div class="box">
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="cpu.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <img src="disk.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <img src="ram.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <img src="procese.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+<script>
+var myIndex = 0;
+carousel();Ó
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+
+function imagine()
+{
+document.getElementById("cpu").style.display="none";
+document.getElementById("ram").style.display="none";
+document.getElementById("procese").style.display="none";
+document.getElementById("disk").style.display="none";
+}
+</script>
+</body>
+
+</html>
+</head>
